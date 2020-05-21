@@ -12,12 +12,12 @@ CACHE_DIR=/nvidia-device-plugin
 
 # NVIDIA driver
 #
-# Version:          440.64.00
-# Release Date:     2020.3.10
+# Version:          418.126.02
+# Release Date:     2020.2.28
 # Operating System: Linux 64-bit
-# CUDA Toolkit:     10.2
+# CUDA Toolkit:     10.1
 # Language:         English (US)
-# File Size:        135.36 MB
+# File Size:        103.71 MB
 #
 # SUPPORTED PRODUCTS
 #
@@ -35,13 +35,8 @@ CACHE_DIR=/nvidia-device-plugin
 #
 # K-Series:
 # Tesla K80, Tesla K520, Tesla K40c, Tesla K40m, Tesla K40s, Tesla K40st, Tesla K40t, Tesla K20Xm, Tesla K20m, Tesla K20s, Tesla K20c, Tesla K10, Tesla K8
-#
-# M-Class:
-# M60, M40 24GB, M40, M6, M4
 
 
-#driver_file="http://us.download.nvidia.com/tesla/440.64.00/NVIDIA-Linux-x86_64-440.64.00.run"
-#driver_md5sum="b1dfbb3f36490352ffb5e59ed251fda1"
 driver_file="http://us.download.nvidia.com/tesla/418.126.02/NVIDIA-Linux-x86_64-418.126.02.run"
 driver_md5sum="7fa3be61ac62fcac610eb903db6e630d"
 
