@@ -1,11 +1,13 @@
-## `kops` hook for NVIDIA GPU Driver and DevicePlugin Installation
+## Viaduct's forked `kops` hook for NVIDIA GPU Driver and DevicePlugin Installation
 
-This kops hook container may be used to enable nodes with GPUs to work with Kubernetes.
+This is a Viaduct fork of a kops hook container used to enable nodes with GPUs to work with Kubernetes.
 
 It installs the following from web sources.
 
 1. [Nvidia Device Drivers](http://www.nvidia.com/Download/index.aspx)
 2. [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
+
+In Viaduct's case, we only use the `tesla-440.64.00` driver
 
 ### How it works
 

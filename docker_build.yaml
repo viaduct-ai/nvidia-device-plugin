@@ -1,0 +1,5 @@
+# Builds an image of the form: {repo}/{project}:{app}-{sha}
+repo: 304253571449.dkr.ecr.us-west-2.amazonaws.com/viaduct.ai
+project: forked-apps
+app: nvidia-device-plugin
+# Build arguments
